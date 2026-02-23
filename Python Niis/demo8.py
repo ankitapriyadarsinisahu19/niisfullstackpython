@@ -158,3 +158,52 @@ a=b
 b=c
 c=a
 print("a=",a,"b=",b,"c=",c)
+
+
+
+print(5 or 7)
+print(0 or 7)
+print(0 or 0)
+
+
+a=10
+b=20
+print(a>5 or b<12)
+
+print(5 and 7)
+print(0 and 7)
+print(0 and 0)
+
+
+a=10
+b=20
+print(a>5 and b<12)
+
+
+
+print(bin(25))
+print(oct(25))
+print(hex(25))
+print(oct(265))
+print(hex(265))
+
+
+
+a=10
+b=3
+c=a+~b+1
+print(c)
+
+
+"""wap take reactangle length and breadth from keyboard display length breadth area and perimeter"""
+
+print("enter rectangle length=")
+L=int(input())
+print("enter rectangle breadth=")
+B=int(input())
+ar=L*B
+pr=2(L+B)
+print("length=",L)
+print("breadth=",B)
+print("area=",ar)
+print("perimeter=",pr)
