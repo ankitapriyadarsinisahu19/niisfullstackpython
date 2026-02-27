@@ -1,10 +1,10 @@
-def si():
-	print("enter principal:")
-	principal=float(input())
+def sical():
+	print("enter principle:")
+	p=float(input())
 	print("enter rate:")
-	rate=float(input())
+	r=float(input())
 	print("time=")
-	time=float(input())
-	si=principal*rate*time/100
+	t=float(input())
+	si=p*r*t/100
 	print("simple intrest=",si)
-si()
+sical()
